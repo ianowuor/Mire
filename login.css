@@ -1,0 +1,103 @@
+a{
+    color: goldenrod;
+    font-family: roboto,arial;
+    text-decoration: none;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 250px;
+    background-image: url(facade-modern-apartment-building-exterior-architecture-design-concept_185094-6589.jpg);
+}
+
+.error {
+    color: red;
+}
+
+ #showPass {
+    width: 25px;
+    height: 20px;
+    border: solid;
+    border-color: grey;
+    border-left: none;
+    border-width: 2px;
+    border-radius: 2px;
+    margin-left: -2px;
+    border-radius: 3px;
+
+ }
+
+ #password_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ #password{
+    height: 18px;
+    color: grey;
+    font-family: roboto,arial;
+    font-weight: 500;
+    outline: none;
+    border-color: grey;
+    border: solid;
+    border-right: none;
+    border-width: 2px;
+    border-radius: 3px;
+ }
+ #bigDiv{
+    background-color: white;
+    height: 300px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+ }
+ #login{
+    color: goldenrod;
+    font-size: 60px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-family: roboto,arial;
+ }
+ #pass{
+    color: grey;
+    font-family: roboto,arial;
+    font-weight: 500;
+ }
+ #loginUser{
+    border: solid;
+    border-width: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: roboto,arial;
+    font-weight: 500;
+    height: 22px;
+    padding-top: 2px;
+    border-radius: 3px;
+    transition: .6s;
+ }
+ #changePass{
+    border: solid;
+    border-width: 2px;
+    margin-top: 4px;
+    font-family: roboto,arial;
+    font-weight: 500;
+    height: 22px;
+    padding-top: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    transition: .6s;
+ }
+ #loginUser:hover,#changePass:hover{
+    background-color: goldenrod;
+    color: white;
+    border-radius: 4px; ;
+
+ }
+ 

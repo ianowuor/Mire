@@ -1,0 +1,325 @@
+a{
+    text-decoration: none;
+}
+body {
+   background-image: url(facade-modern-apartment-building-exterior-architecture-design-concept_185094-6589.jpg);
+   margin-top: 110px;
+   display: flex;
+
+   align-items: center;
+}
+p{
+    display: block;
+    color: white;
+    font-family: roboto,Arial;
+    font-weight: 900;
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#header{
+    position: fixed;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    background-color:white;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+    width: 100%;
+}
+#login_button{
+    color: goldenrod;
+    background-color: transparent;
+    border-radius: 3px;
+    border-width: 1px;
+    border: solid;
+    border-color: goldenrod;
+    margin-left: 20px;
+    height: 35px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: roboto,arial;
+    font-weight: 900;
+}
+
+#login_button:hover {
+    cursor: pointer;
+    background-color: goldenrod;
+    color: white;
+
+}
+#header_title{
+    margin-right: 700px;
+    font-family: roboto,arial;
+    font-style: italic;
+    font-size: 50px;
+    margin-left: 0px;
+}
+#MI_syllable{
+    color: goldenrod;
+}
+#logo{
+    height: 50px;
+    margin-left: 380px;
+}
+#header_div{
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#body{
+    display: flex;
+    margin-top: 50px;
+    border: solid;
+    border-color: red;
+    width: 100%;
+    height: 1000px;
+}
+#section1{
+    height: 500px;
+    margin-left: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+    column-gap: 10px;
+
+   
+}
+#section2{
+    width: 700px;
+    height: 500px;
+    margin-top: -100px;
+    display: inline;
+}
+#section3{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 400px;
+    float: left;
+    margin-left: 100px;
+    margin-bottom: 200px;
+}
+
+#row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+
+    margin-left: 0px;
+}
+#rooms_available,#myclients,#payments,#complains,#notes{
+    transition: .5s;
+}
+#rooms_available{
+    height: 200px;
+    width: 130px;
+    background-color:grey;
+    margin-top: 50px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: roboto,arial;
+    font-weight: bold;
+
+}
+#rooms_available:hover{
+    height: 220px;
+    width: 140px;
+    text-decoration: underline;
+    color: white;
+    font-weight: 900px
+    
+}
+#myclients{
+    height: 170px;
+    width: 135px;
+    background-color: rgb(74, 78, 164);
+    margin-left: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: -30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: roboto,arial;
+    font-weight: bold;
+}
+#myclients:hover{
+    height: 190px;
+    width: 145px;
+}
+#payments{
+    height: 150px;
+    width: 160px;
+    background-color: rgb(56, 166, 56);
+    margin-top: 10px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: roboto,arial;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+#add_house{
+    height: 100px;
+    width: 110px;
+    background-color: rgb(56, 166, 56);
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: roboto,arial;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+#payments:hover{
+    height: 120px;
+    width: 85px;
+}
+#complains{
+    width: 200px;
+    height: 200px;
+    background-color:gold;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+}
+#complains:hover{
+    width: 220px;
+    height: 210px;
+}
+#notes{
+    height: 250px;
+    width: 130px;
+    background-color: orange;
+    margin-top: 55px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+#notes:hover{
+    height: 260px;
+    width: 150px;
+}
+#section2_2{
+    height: 630px;
+    width: 550px;
+    background-color: transparent;
+    margin-top: -60px;
+    margin-left: 200px;
+    border-radius: 20px;
+
+}
+
+#add_user {
+    height: 30px;
+    width: 80px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin-left: 50px;
+    font-family: roboto,arial;
+    border: 3px solid goldenrod;
+    border-radius: 3px;
+    color: goldenrod;
+    font-weight: bold;
+
+}
+
+#current_user {
+    width: 100px;
+    height: 33px;
+    border: 3px solid goldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: goldenrod;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+}
+#iframe1{
+    height: 650px;
+    width: 580px;
+    border-radius: 20px;
+    border: none;
+}
+#line1{
+    background-color: goldenrod;
+    width: 500px;
+    height: 3px;
+    margin-left: 25px;
+}
+#calendar{
+    width: 200px;
+    height: 250px;
+    background: white;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    row-gap: 10px;
+    border-radius: 20px;
+    margin-right: -200px;
+    flex-direction: column;
+    margin-bottom: -100px;
+
+}
+#date{
+    display: flex;
+    
+    align-items: center;
+    row-gap: 10px;
+    column-gap: 10px;
+    margin-bottom: -100px;
+    padding-bottom: 50px;
+}
+#column1{
+    margin-top: 20px;
+}
+#column1,#column2,#column3,#column4,#column5{
+   margin-bottom: -50px;
+}
+#line2{
+    width: 150px;
+    height: 3px;
+    background: goldenrod;
+    margin-bottom: 0px;
+}
+#month{
+    margin-top: 20px;
+}
+div{
+    font-family: roboto,arial;
+    color: grey;
+    font-weight: 700;
+}

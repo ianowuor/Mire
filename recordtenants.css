@@ -1,0 +1,107 @@
+a{
+    text-decoration: none;
+}
+body{
+    background-image: url(facade-modern-apartment-building-exterior-architecture-design-concept_185094-6589.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: centre;
+    margin-top: 250px;
+}
+#mainDiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 100%;
+    background-color: white;
+    border-radius: 20px;
+}
+#add_tenant{
+    font-family: roboto,arial;
+    font-size: 60px;
+    color: goldenrod;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+label{
+    color: grey;
+    font-family: roboto,arial;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+#house{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    outline: none;
+    color: grey;
+    border-color: grey;
+    border-width: 2px;
+    border-radius: 3px;
+    font-family: roboto,arial;
+}
+#tenant_name{
+    margin-left: 6px;
+    margin-bottom: 10px;
+    border: solid;
+    outline: none;
+    color: grey;
+    border-color: grey;
+    border-width: 2px;
+    border-radius: 3px;
+    font-family: roboto,arial;
+}
+#phone_number{
+    margin-left: -5px;
+    margin-bottom: 10px;
+    border: solid;
+    outline: none;
+    color: grey;
+    border-color: grey;
+    border-width: 2px;
+    border-radius: 3px;
+    font-family: roboto,arial;
+}
+#id_number{
+    margin-left: 27px;
+    margin-bottom: 10px;
+    border: solid;
+    outline: none;
+    color: grey;
+    border-color: grey;
+    border-width: 2px;
+    border-radius: 3px;
+    font-family: roboto,arial;
+}
+#back{
+    width: 50px;
+    border: solid;
+    color: goldenrod;
+    background: transparent;
+    border-width: 2px;
+    border-color: goldenrod;
+    border-radius: 2px;
+    padding-left: 15px;
+    font-family: roboto,arial;
+    font-weight: 500;
+    transition: .7s;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#back:hover{
+    background-color: goldenrod;
+    color: white;
+}
+#back:active{
+    background-color: white;
+    color: goldenrod;
+}
+#row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+}

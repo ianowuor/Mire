@@ -1,0 +1,84 @@
+a{
+    text-decoration: none;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+   
+    /*background-image: url(facade-modern-apartment-building-exterior-architecture-design-concept_185094-6589.jpg);*/
+}
+#mainDiv{
+    height: 250px;
+    width: 600px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+#row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#description{
+    margin-right: 50px;
+}
+#add_house{
+    font-family: roboto,arial;
+    color: goldenrod;
+    font-size: 60px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+#house_type{
+    color: grey;
+    font-family: roboto,arial;
+    font-weight: 500;
+    margin-right: 10px;
+}
+#description{
+    color: grey;
+    font-family: roboto,arial;
+    font-weight: 500;
+    margin-right: 10px;
+    outline: none;
+}
+#house_number{
+    color: grey;
+    font-family: roboto,arial;
+    font-weight: 500;
+    margin-right: 10px;
+    outline: none;
+}
+#back{
+    width: 50px;
+    border: solid;
+    color: goldenrod;
+    background: transparent;
+    border-width: 2px;
+    border-color: goldenrod;
+    border-radius: 2px;
+    padding-left: 15px;
+    font-family: roboto,arial;
+    font-weight: 500;
+    transition: .7s;
+    margin-bottom: 0px;
+}
+#back:hover{
+    background-color: goldenrod;
+    color: white;
+}
+#back:active{
+    background-color: white;
+    color: goldenrod;
+}
+#row1{
+    margin-bottom: 0px;
+}
